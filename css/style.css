@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+@font-face{
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"),url("../fonts/Larsseit-Regular.woff2") format("woff");
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),url("../fonts/Lato-Regular.woff") format("woff");
+	font-display:swap;
+	font-weight: 500;
+	font-style:normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display:swap;
+	font-weight: 700;
+	font-style:normal;
+}
+@font-face{
+	font-family: "Lato";
+	src:url("../fonts/Lato-Black.woff2") format("woff2"),url("../fonts/Lato-Black.woff") format("woff");
+	font-display:swap;
+	font-weight: 900;
+	font-style:normal;
+}
+
+
+body{
+	font-family:"Roboto";
+	font-weight: 500;
+}
+
+h1{
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	font-family:"Lato";
+	font-weight: 900;
+}
+.financial-success h2{
+	color: gold;
+	font-size: 40px;
+	text-align: center;
+	font-family:Roboto;
+	font-weight: 700;
+}
+.steps h4{
+	font-family: 'Roboto',sans-serif;
+	font-weight: 700;
+}
+
+.top p{
+	font-family:"Larsseit";
+	font-weight: 700;
+}
+a{
+	color: brown;
+	font-family:"Lato" ;
+	font-weight: 700;
+}
+.actives{
+	color: blue;
+}
+p.text{
+	color: red;
+}
